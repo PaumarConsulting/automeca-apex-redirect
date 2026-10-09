@@ -1,6 +1,22 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Automeca Technical College</title>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automeca Technical College</title>
 <meta name="robots" content="noindex">
-<script>location.replace("https://www.automeca.com"+location.pathname+location.search+location.hash);</script>
+<link rel="canonical" href="https://www.automeca.com/">
+<script>
+  // automeca.com (sin www) -> https://www.automeca.com + misma ruta, parámetros y ancla.
+  // Este archivo es grande a propósito: Chrome reemplaza respuestas 404 de menos de 512 bytes con su propia
+  // página de error y no ejecuta el script. GitHub Pages sirve este archivo con estado 404 para cualquier ruta.
+  location.replace("https://www.automeca.com" + location.pathname + location.search + location.hash);
+</script>
 <noscript><meta http-equiv="refresh" content="0; url=https://www.automeca.com/"></noscript>
-<link rel="canonical" href="https://www.automeca.com/"></head>
-<body><p><a href="https://www.automeca.com/">www.automeca.com</a></p></body></html>
+<style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;background:#0b3d91;color:#fff;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0}a{color:#fff}</style>
+</head>
+<body>
+<p>Redirigiendo a <a href="https://www.automeca.com/">www.automeca.com</a>…</p>
+<!-- relleno para superar el umbral de 512 bytes de Chrome en páginas 404 ................................................................................................................................................................................................ -->
+</body>
+</html>
